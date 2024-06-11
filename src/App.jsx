@@ -1,7 +1,10 @@
+import './assets/styles/styles.sass'
+import Home from './pages/Home'
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello there!</h1>
+      <Home />
     </div>
   );
 }
