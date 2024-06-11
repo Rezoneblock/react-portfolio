@@ -1,10 +1,13 @@
 import React from 'react';
+import Aside from '../layouts/Aside'
+import Header from '../layouts/Header'
 
 const Home = () => {
     return (
-        <h1>
-            Hello, there!
-        </h1>
+        <>
+            <Aside />
+            <Header />
+        </>
     );
 }
 
